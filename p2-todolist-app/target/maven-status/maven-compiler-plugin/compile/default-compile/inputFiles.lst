@@ -6,6 +6,7 @@ C:\UMH_2026\Agile_software_devops\agile_exercise2\p2-todolist-app\src\main\java\
 C:\UMH_2026\Agile_software_devops\agile_exercise2\p2-todolist-app\src\main\java\todolist\service\InitDbService.java
 C:\UMH_2026\Agile_software_devops\agile_exercise2\p2-todolist-app\src\main\java\todolist\Application.java
 C:\UMH_2026\Agile_software_devops\agile_exercise2\p2-todolist-app\src\main\java\todolist\repository\TareaRepository.java
+C:\UMH_2026\Agile_software_devops\agile_exercise2\p2-todolist-app\src\main\java\todolist\controller\HomeController.java
 C:\UMH_2026\Agile_software_devops\agile_exercise2\p2-todolist-app\src\main\java\todolist\service\TareaService.java
 C:\UMH_2026\Agile_software_devops\agile_exercise2\p2-todolist-app\src\main\java\todolist\controller\exception\UsuarioNoLogeadoException.java
 C:\UMH_2026\Agile_software_devops\agile_exercise2\p2-todolist-app\src\main\java\todolist\service\TareaServiceException.java
