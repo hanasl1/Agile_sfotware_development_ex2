@@ -10,6 +10,7 @@ todolist\controller\LoginController.class
 todolist\controller\TareaController.class
 todolist\service\InitDbService.class
 todolist\service\TareaService.class
+todolist\controller\GlobalModelAttributes.class
 todolist\Application.class
 todolist\dto\UsuarioData.class
 todolist\repository\UsuarioRepository.class
