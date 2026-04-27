@@ -20,22 +20,22 @@
             <li class="nav-item">
                 <a class="nav-link" th:href="@{/about}">About</a>
             </li>
-            <li class="nav-item" th:if="${usuarioLogeado}">
+            <li class="nav-item" th:if="${usuarioLogeado == true}">
                 <a class="nav-link" th:href="@{/usuarios/{id}/tareas(id=${usuarioId})}">Tasks</a>
             </li>
         </ul>
 
         <ul class="navbar-nav ml-auto">
             <!-- Guest Navbar (not logged in) -->
-            <li class="nav-item" th:if="${!usuarioLogeado}">
+            <li class="nav-item" th:if="${usuarioLogeado == false}">
                 <a class="nav-link" th:href="@{/login}">Login</a>
             </li>
-            <li class="nav-item" th:if="${!usuarioLogeado}">
+            <li class="nav-item" th:if="${usuarioLogeado == false}">
                 <a class="nav-link" th:href="@{/registro}">Register</a>
             </li>
 
             <!-- User Navbar (logged in) -->
-            <li class="nav-item dropdown" th:if="${usuarioLogeado}">
+            <li class="nav-item dropdown" th:if="${usuarioLogeado == true}">
                 <a class="nav-link dropdown-toggle"
                    href="#"
                    id="navbarUserDropdown"
